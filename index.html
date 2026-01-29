@@ -1,44 +1,84 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-    </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="css/styles.css">
-</head> 
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Greenmind</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
 <body>
-    
-    <header>
-        <a href="">GreenWorld</a>
-        <ul>
-            <li>Home</li>
-            <li>Products</li>
-        </ul>
-        <a href=""></a>
-        <a href=""></a>
-        
-    </header>
 
-    <section>
-        <h4>By your dream plants</h4>
-        <search>Search</search>
+<header class="header">
+  <div class="container nav">
+    <div class="logo">GREENDREAM</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Contacts</a>
+    </nav>
+    <div class="icons">
+      🛒 👤 ☰
+    </div>
+  </div>
+</header>
 
+<section class="hero">
+  <div class="container hero-box">
+    <div class="hero-text">
+      <h1>Buy your<br>dream plants</h1>
 
-    </section>
+      <div class="stats">
+        <div>
+          <strong>50+</strong>
+          <span>Plant Species</span>
+        </div>
+        <div>
+          <strong>100+</strong>
+          <span>Customers</span>
+        </div>
+      </div>
 
+      <div class="search">
+        <input type="text" placeholder="What are you looking for?" />
+        <button>🔍</button>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="circle">
+        <img src="image (6).png" alt="Plant">
+    </div>
+  </div>
+</section>
+
+<section class="products">
+  <div class="container products-grid">
+    <div class="products-info">
+      <h2>Best Selling<br>Plants</h2>
+      <p>Easiest way to healthy life by buying your favorite plants</p>
+      <button class="btn">See more →</button>
+    </div>
+
+    <div class="card">
+      <img src="image (5).png" alt="">
+      <h4>kalanchoe</h4>
+      <span>150</span>
+    </div>
+
+    <div class="card">
+      <img src="image (4).png" alt="">
+      <h4>Mandarin</h4>
+      <span>900</span>
+    </div>
+
+    <div class="card">
+      <img src="image (3).png" alt="">
+      <h4>Cymbidium</h4>
+      <span>1200</span>
+    </div>
+  </div>
+</section>
 
 </body>
+</html>
